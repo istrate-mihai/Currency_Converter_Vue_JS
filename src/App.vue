@@ -1,18 +1,30 @@
 <template>
-  <calculator :currencyList="currencyList"></calculator>
+  <header-nav></header-nav>
+  <calculator
+  @display-result="displayResult"
+  @clear-result="clearResult"
+  ></calculator>
+
+  <result-display v-if="mustDisplayMessage" :message="resultMessage"></result-display>
 </template>
 
 <script>
 import { currencyList } from '@/data/CurrencyList.js';
+import HeaderNav from './components/UI/HeaderNav.vue';
 import Calculator from './components/Calculator.vue';
+import ResultDisplay from './components/UI/ResultDisplay.vue';
 
 export default {
   components: {
     Calculator,
+    HeaderNav,
+    ResultDisplay,
   },
   data() {
     return {
-      currencyList: currencyList, 
+      currencyList: currencyList,
+      resultMessage: '',
+      mustDisplayMessage: false,
     };
   },
   provide() {
@@ -20,30 +32,31 @@ export default {
       currencyList: this.currencyList,
     };
   },
+  methods: {
+    displayResult(message) {
+      this.mustDisplayMessage = message.isResultToDisplay;
+      this.resultMessage      = message.content;
+    },
+    clearResult() {
+      this.mustDisplayMessage = false;
+    },
+  },
 };
 </script>
 
 <style>
 body {
-  padding: 0;
   margin: 0;
-  font-size: larger;
-  font-weight: bolder;
+  padding: 0;
   background-image: url("images/main_background.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.calculator {
-  margin: 100px auto;
-  width: 80%;
-  text-align: center;
-  padding: 2px;
-  background-color: rgba(255, 208, 120, 0.5);
-  display: flex;
-  align-self: center;
-  align-items: center;
-  justify-content: center;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: larger;
+  font-weight: bolder;
+  min-height: 100vh;
 }
 
 .form--calculator {

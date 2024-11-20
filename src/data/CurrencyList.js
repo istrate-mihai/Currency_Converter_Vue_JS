@@ -5,19 +5,19 @@ export const currencyList = [
     equivalents: [
       {
         name: "USD Dollar",
-        rate: "1.08",
+        rate: 1.05826,
       },
       {
-        name: "Pound Sterling",
-        rate: "0.84",
+        name: "British Pound",
+        rate: 0.83554,
       },
       {
-        name: "Russian Ruble",
-        rate: "80.82",
+        name: "Russian Rouble",
+        rate: 106.074,
       },
       {
-        name: "Romanian Leu",
-        rate: "4.94",
+        name: "Romanian New Leu",
+        rate: 4.97119,
       },
     ],
   },
@@ -27,85 +27,85 @@ export const currencyList = [
     equivalents: [
       {
         name: "Euro",
-        rate: "0.93",
+        rate: 0.94481,
       },
       {
-        name: "Pound Sterling",
-        rate: "0.78",
+        name: "British Pound",
+        rate: 0.78948,
       },
       {
-        name: "Russian Ruble",
-        rate: "74.88",
+        name: "Russian Rouble",
+        rate: 100.235,
       },
       {
-        name: "Romanian Leu",
-        rate: "4.57",
+        name: "Romanian New Leu",
+        rate: 4.69752,
       },
     ],
   },
   {
-    name: "Pound Sterling",
+    name: "British Pound",
     symbol: "£",
     equivalents: [
       {
         name: "Euro",
-        rate: "1.19",
+        rate: 1.19661,
       },
       {
         name: "USD Dollar",
-        rate: "1.28",
+        rate: 1.26644,
       },
       {
-        name: "Russian Ruble",
-        rate: "96.12",
+        name: "Russian Rouble",
+        rate: 126.941,
       },
       {
-        name: "Romanian Leu",
-        rate: "5.87",
+        name: "Romanian New Leu",
+        rate: 5.94914,
       },
     ],
   },
   {
-    name: "Russian Ruble",
+    name: "Russian Rouble",
     symbol: "₽",
     equivalents: [
       {
         name: "Euro",
-        rate: "0.012",
+        rate: 0.00942,
       },
       {
         name: "USD Dollar",
-        rate: "0.013",
+        rate: 0.00997,
       },
       {
-        name: "Pound Sterling",
-        rate: "0.0097",
+        name: "British Pound",
+        rate: 0.00787,
       },
       {
-        name: "Romanian Leu",
-        rate: "0.057",
+        name: "Romanian New Leu",
+        rate: 0.04684,
       },
     ],
   },
   {
-    name: "Romanian Leu",
+    name: "Romanian New Leu",
     symbol: "RON",
     equivalents: [
       {
         name: "Euro",
-        rate: "0.2",
+        rate: 0.20072,
       },
       {
         name: "USD Dollar",
-        rate: "0.22",
+        rate: 0.21245,
       },
       {
-        name: "Pound Sterling",
-        rate: "0.17",
+        name: "British Pound",
+        rate: 0.16772,
       },
       {
-        name: "Russian Ruble",
-        rate: "16.35",
+        name: "Russian Rouble",
+        rate: 21.2945,
       },
     ],
   },
