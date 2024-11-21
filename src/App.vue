@@ -41,26 +41,7 @@ export default {
       this.mustDisplayMessage = false;
     },
   },
-  // mounted() {
-  // Latest rates
-  // ?symbols=EUR,USD,GBP,RUB
-  // fetch('https://api.frankfurter.app/latest')
-  // .then(response => response.json())
-  // .then(data => {
-    // console.log(data);
-    // if ('rates' in data) {
-      // let rateList = data.rates;
-      // console.log('rateList', rateList);
-      // for (let index in rateList) {
-      //   console.log(rateList[]);
-      // }
-    // }
-  // })
-  // .catch(error => console.error('Error:', error));
-  // },
 };
-// https://www.oanda.com/currency-converter/en/?from=EUR&to=RUB&amount=1
-
 </script>
 
 <style>
