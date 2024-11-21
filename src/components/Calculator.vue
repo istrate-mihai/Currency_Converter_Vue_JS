@@ -125,6 +125,6 @@ form {
 }
 
 button {
-  margin: 5px;
+  margin: 15px 15px 0 0;
 }
 </style>
