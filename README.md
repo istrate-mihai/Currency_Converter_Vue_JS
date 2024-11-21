@@ -7,7 +7,7 @@ Euro, USD Dollar, British Pound, Russian Rouble and Romanian New Leu.
 
 ![Project Cover](src/images/currency%20_converter_cover.png)
 
-## Project Link: [Computer History](https://currency-converter-vue-js.netlify.app/)
+## Project Link: [Currency Converter](https://currency-converter-vue-js.netlify.app/)
 
 ## Recommended IDE Setup
 
