@@ -1,6 +1,13 @@
-# currency_converter
+# Project Title: Currency Converter Vue Js
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a simple Vue 3 Currency Converter app, providing the following currencies for conversion rates:
+Euro, USD Dollar, British Pound, Russian Rouble and Romanian New Leu.
+
+## Project Cover:
+
+![Project Cover](src/images/currency%20_converter_cover.png)
+
+## Project Link: [Computer History](https://currency-converter-vue-js.netlify.app/)
 
 ## Recommended IDE Setup
 
